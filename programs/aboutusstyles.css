@@ -1,0 +1,363 @@
+.au-body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 400px;
+    color: white;
+}
+
+
+/* .au-container{
+    padding: 0;
+    margin: 0;
+} */
+
+.au-bg {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    background-image: url(images/au-trial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.au-main {
+    min-height: 360px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/au-bg3.jpg) repeat fixed 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FB8B24;
+}
+
+.au-main h1 {
+    padding: 10%;
+    font-family: 'Mohave', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5em;
+    letter-spacing: .015em;
+    line-height: .9em;
+    text-transform: uppercase;
+}
+
+/* .ourStory{
+    background-image: url(images/bgImg1.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+} */
+
+.au-cards {
+    box-sizing: border-box;
+    /* margin-top: 9rem; */
+    padding: 3% 3% 3% 3%;
+    margin-right: 0%;
+}
+
+#card1 {
+    padding: 5%;
+    min-height: 100px;
+}
+
+#card1 h3 {
+    color: #FDC087;
+    font-family: 'Courgette', cursive;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: .9em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 25px;
+}
+
+#card1 h5 {
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+    font-style: normal;
+    font-size: larger;
+    line-height: 1.1em;
+    padding-bottom: 25px;
+}
+
+#card2 {
+    min-height: 300px;
+    max-width: 100%;
+    height: auto;
+    background: url(images/grouppic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.au-feature-card {
+    text-align: center;
+    transition: transform 500ms ease;
+}
+
+.au-feature-card p {
+    font-size: large;
+}
+
+.au-card-imgs {
+    padding: 10%;
+    margin-bottom: 20px;
+}
+
+.au-card-imgs {
+    padding: 17%;
+    margin-bottom: -10%;
+}
+
+.au-feature-card h3 {
+    padding-bottom: 5%;
+}
+
+
+/* media queries */
+
+@media (min-width: 768px) {
+    .au-card-imgs {
+        padding: 12%;
+        margin-bottom: 20px;
+    }
+    #card1 h5 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+}
+
+
+/* tablet view */
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .au-cards {
+        justify-content: center;
+        text-align: center;
+    }
+    #card1 h5 {
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+}
+
+
+/* mobile view */
+
+@media (min-width: 0px) and(max-width: 426px) {
+    #card1 h5 {
+        line-height: 0.2em;
+    }
+    #card2 {
+        width: 100%;
+        background-size: cover;
+        padding: 0px 0px 0px 0px;
+    }
+    /* .au-cards{ */
+    /* .au-cards{
+        justify-content: center;
+        text-align: center;
+    } */
+    /* #card1 h3{
+        display: flex;
+        flex-direction: row;
+    } */
+    /* #card1 h3:before, #card1 h3:after{
+            
+        content: "";
+            flex: 1 1;
+            border-bottom: 2px solid #9A031E;
+            margin: auto;
+        } */
+    /* #card1 h3{
+                background-color: currentColor;
+                min-width: 50%;
+                height: 3px;
+                border: none;
+                margin: auto;
+                position: relative;
+        }
+        #card1 h3:before {
+                  font-family: cursive;
+                  content: 'Our Story';
+                  display: block;
+                  width: 20%;
+                  padding: 0.3em;
+                  /* font-size: 2em; */
+    /* text-align: center;
+                  position: absolute;
+                  top: 0;
+                  left: 50%;
+                  background-color: #f2f2f2;
+                  transform: translate(-50%, -50%);*/
+    /* } */
+    #card1 h5,
+    #card1 h3 {
+        text-align: center;
+        line-height: 0.2em;
+        font-size: 0.8em;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #card1 h5 {
+        font-size: 0.8em;
+        line-height: 0.8em;
+    }
+}
+
+
+.staff-part-body {
+    /* font: 'Poppins', sans-serif; */
+    /* background-color: #03171b; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+.small-heading {
+    display: flex;
+    justify-content: center;
+    color: #FDC087;
+    /* color: white; */
+    margin-top: 0.8em;
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+
+/* 
+.staff-box{
+    background-color: #03171b;
+    height: auto;
+    width: 1000px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://image.freepik.com/free-photo/chef-cooking-with-pot_329181-686.jpg");
+    background-size: cover; */
+    background-color: #03171b;
+    color: white;
+    /* height: 35rem; */
+    margin: 0.8em;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    border-radius: 15px;
+}
+
+.staff-img {
+    margin: 0.5em;
+    padding-top: 0.75em;
+    border-radius: 20px;
+    height: auto;
+    width: 20rem;
+}
+
+.card-img-top {
+    border-radius: 15px;
+    width: 92%;
+}
+
+
+/* .title{
+    font-family: 'Courgette', cursive;
+} */
+
+.card-body {
+    /* height: 100px; */
+    padding: 0.75em;
+    background: linear-gradient( hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.3) 20%, hsl(0 0% 0% / 1));
+    /* transform: translateY(65%); */
+    transition: transform 500ms ease;
+    /* transition: height 500ms ease; */
+    border-radius: 15px;
+    height: auto;
+    /* width: 30rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .body1{
+    transition: height 500ms ease;
+    transform-origin: top;
+} */
+
+.staff-card1:hover,
+.staff-card3:hover,
+.staff-card2:hover,
+.au-feature-card:hover {
+    transform: scale(1.05);
+}
+
+.staff-card1:hover .body1,
+.staff-card2:hover .body2,
+.staff-card3:hover .body3,
+.au-feature-card:hover p {
+    transform: translatey(0);
+    height: auto;
+}
+
+
+/* 
+.card1:hover .body1{
+    transform: translatey(0);
+}
+.card2:hover .body2{
+    height: 200px;
+}
+.card3:hover .body3{
+    transform: translatey(0);
+    height: 200px;
+}  */
+
+.card-title {
+    position: relative;
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.card-title::after,
+.au-feature-card h3::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    background-color: #FBA04B;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after,
+.au-feature-card:hover h3::after {
+    transform: scaleX(1);
+}
+
+
+/* 
+.btn{
+    background-color: #1A839E;
+    background-color: #FDC087;
+    color: rgb(253, 253, 253);
+    margin-bottom: 0.3em;
+    align-items: center;
+} */

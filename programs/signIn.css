@@ -1,0 +1,164 @@
+        html,body {
+            font-family: Century Gothic, 'Poppins', sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            /*  */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+/* body{
+    position: relative;
+}
+
+body:before{
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.section{
+    position: relative;
+    z-index: 2;
+} */
+   /*
+form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+        
+        a {
+            text-decoration: none;
+        }
+        /* .inputwrapper {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} */
+        
+        h3,
+        h2 {
+            padding-top: 20%;
+            color: white;
+            font-weight: 800;
+        }
+        
+        .signin-btn {
+            border-radius: 40px;
+            background-color: white;
+        }
+        
+        .signin-btn:hover {
+            background-color: #9A031E;
+            color: white;
+        }
+        /* .rememberBox{
+  background-color:#9A031E;
+} */
+        
+        .form-control {
+            height: 50px;
+            color: white;
+            border: 1px solid transparent;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+        }
+        /*
+.login-wrap .social a {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+}
+
+.login-wrap .social a:hover {
+    background-color: #000;
+    color: #fff;
+
+} */
+        
+        .btn {
+            cursor: pointer;
+        }
+        /* Social */
+        
+        .fa {
+            padding: 25px;
+            font-size: 25px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+        
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        
+        .fa {
+            font-size: 20px;
+            width: 10px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 50%;
+            text-decoration: none;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        /*         
+        .form-control.success input {
+            border-color: green
+        }
+        
+        .form-control small {
+            color: red;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            visibility: hidden;
+        }
+        
+        .form-control.error small {
+            visibility: visible;
+        } */

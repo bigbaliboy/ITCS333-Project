@@ -1,0 +1,250 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* background-color: #030F11; */
+    /* color: white; */
+    background-image: url(images/au-bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10rem;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.profileCard {
+    display: flex;
+    align-items: center;
+    /* background-color: #091b1fa6; */
+    background-color: #05171b;
+    color: white;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    /* height: 400px; */
+    transform: scale(1.2);
+    width: 20rem;
+    height: 20rem;
+}
+
+.header {
+    /* position: absolute; */
+    height: 48px;
+}
+
+.profileCard img {
+    left: 50%;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border: 4px solid #FBA04B;
+    box-shadow: 0 0 20px #00000033;
+    margin-bottom: 30px;
+    transform: translateY(-50%);
+}
+
+.card .card-body .name {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #c74385;
+}
+
+.card .card-body .name:hover {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #d885af;
+}
+
+.profileTitle {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #FBA04B;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.profileImg:hover {
+    width: 140px;
+    height: 140px;
+    border: 4px solid #FBA04B;
+}
+
+.profileTitle:hover {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fcac61;
+}
+
+
+/* 
+.email{
+    margin-bottom: 30px;
+} */
+
+
+/* .email:hover{
+    font-size: 16px;
+}
+
+.phone:hover{
+    font-size: 16px;
+} */
+
+.passwordIn,
+.phone {
+    border-radius: 7px;
+    margin-bottom: 0.4rem;
+    width: 13rem;
+    background-color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: #05171b;
+}
+
+.profile p {
+    font-size: 15px;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.changePass {
+    text-decoration: none;
+    color: white;
+}
+
+.changePass:hover {
+    color: #FBA04B;
+}
+
+.cardFooter {
+    background-color: #FBA04B;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.submitInfo,
+.signOut {
+    width: 20rem;
+    border: none;
+    background-color: #FBA04B;
+    color: #05171b;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pButton {
+    /* width: 20rem; */
+    margin: 10px 0 10px 0;
+}
+
+.submitInfo {
+    margin: 10px 0 10px 0;
+}
+
+hr {
+    margin: 0;
+    color: #05171b;
+    height: 30px;
+}
+
+.passwordIn {
+    margin-bottom: 3px;
+}
+
+
+/* .profileButton{
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #FB8B24;
+    color: #05171b;
+    font-weight: 600;
+    text-align: center;
+} */
+
+
+/* .cardFooter:hover{
+    height: 100px;
+    transition: height 0.35s ease-in;
+    transform: translateY(1.06);
+    background-color: tomato;
+    transition: transform 500ms ease;
+} */
+
+
+/* 
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 100px;
+} */
+
+
+/* .profileTitle{
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+} */
+
+.card2 {
+    background-color: #091b1fa6;
+}
+
+.changePassword {
+    background-color: #091b1fdc;
+}
+
+.changePassword {
+    display: flex;
+    justify-content: center;
+}
+
+.changePassword a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 769px) {
+    .profileCard {
+        transform: scale(1);
+    }
+    .profile {
+        margin-top: 8rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .profileCard {
+        transform: scale(0.8);
+    }
+    .profile {
+        margin-top: 6rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .profileCard {
+        transform: scale(0.6);
+    }
+    .profile {
+        margin-top: 4rem;
+    }
+}
